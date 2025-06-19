@@ -1,0 +1,10 @@
+{
+  "language": {
+    "typescript": {
+      "parser": "typescript",
+      "parserOptions": {
+        "experimentalDecorators": true
+      }
+    }
+  }
+}

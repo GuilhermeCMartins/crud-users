@@ -16,6 +16,13 @@
     "forceConsistentCasingInFileNames": true,
     "noImplicitAny": false,
     "strictBindCallApply": false,
-    "noFallthroughCasesInSwitch": false
+    "noFallthroughCasesInSwitch": false,
+    "paths": {
+      "@apps/*": ["src/apps/*"],
+      "@controllers/*": ["src/apps/health/controllers/*"],
+      "@services/*": ["src/apps/health/services/*"],
+      "@common/*": ["src/common/*"],
+      "@schemas/*": ["src/schemas/*"]
+    }
   }
 }
